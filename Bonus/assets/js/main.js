@@ -15,6 +15,13 @@ var numeroUtente = prompt("Inserisci un numero da usare!!")
 //Do il benvenuto al cliente
 document.getElementById("titolo").innerHTML = "Benvenuto " + nomeUtente
 
+//comunico i dati inseriti dall'utente
+document.getElementById("nomeUtente").innerHTML = nomeUtente
+document.getElementById("cognomeUtente").innerHTML = cognomeUtente
+document.getElementById("coloreUtente").innerHTML = coloreUtente
+document.getElementById("numeroUtente").innerHTML = numeroUtente
+
+
 //stampo prima opzione di password
 document.getElementById("prima_scelta").innerHTML = nomeUtente + cognomeUtente + coloreUtente + numeroUtente
 

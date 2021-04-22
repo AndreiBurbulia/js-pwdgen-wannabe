@@ -1,0 +1,12 @@
+.form-check{
+    width: 300px;
+    padding: 1rem 0;
+}
+
+#nomeUtente,
+#cognomeUtente,
+#coloreUtente,
+#numeroUtente{
+    padding:0.5rem 1rem;
+    background-color: limegreen;
+}
